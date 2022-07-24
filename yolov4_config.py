@@ -14,7 +14,7 @@ and cfg/yolov4_custom_test.cfg
 classes=5
 max_batches=10000
 batch=64
-subdivisions=16 # 문제 발생시 32로 변경하라고 함. 
+subdivisions=32 # 문제 발생시 32로 변경하라고 함. 
 width=2688
 height=1504
 channels=3
