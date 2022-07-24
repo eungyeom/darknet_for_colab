@@ -16,8 +16,10 @@ max_batches=10000
 batch=32 # 64에서 32로 변경함
 
 subdivisions=32 # 문제 발생시 32로 변경하라고 함. 
-width=512
-height=512
+
+width=1520
+height=2704
+
 channels=3
 momentum=0.949
 decay=0.0005
