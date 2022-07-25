@@ -12,7 +12,7 @@ and cfg/yolov4_custom_test.cfg
 """
 
 classes=5
-max_batches=100
+max_batches=1000
 batch=64 # 64에서 32로 변경함
 
 subdivisions=64 # 문제 발생시 32로 변경하라고 함. 
@@ -24,7 +24,7 @@ channels=3
 momentum=0.949
 decay=0.0005
 learning_rate=0.001
-steps= (80, 90) #steps = (80% of max_batches), (90% of max_batches)
+steps= (800, 900) #steps = (80% of max_batches), (90% of max_batches)
 scales=(0.1,0.1)
 
 
