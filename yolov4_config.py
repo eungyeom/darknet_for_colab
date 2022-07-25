@@ -15,10 +15,10 @@ classes=5
 max_batches=10000
 batch=64 # 64에서 32로 변경함
 
-subdivisions=32 # 문제 발생시 32로 변경하라고 함. 
+subdivisions=64 # 문제 발생시 32로 변경하라고 함. 
 
-width=512
-height=896
+width=416
+height=416
 
 channels=3
 momentum=0.949
