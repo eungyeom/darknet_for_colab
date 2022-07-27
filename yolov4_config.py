@@ -15,7 +15,7 @@ classes=1
 max_batches=2000
 batch=64 # 64에서 32로 변경함
 
-subdivisions=64 # 문제 발생시 32로 변경하라고 함. 
+subdivisions=16 # 문제 발생시 32로 변경하라고 함. 
 
 width=416
 height=416
