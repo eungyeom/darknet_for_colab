@@ -13,9 +13,11 @@ and cfg/yolov4_custom_test.cfg
 
 classes=1
 max_batches=2000
-batch=64 # 64에서 32로 변경함
+batch=64 # 64에서 32로 변경함 # Batch=64 -> loading 64 images for one iteration
 
 subdivisions=16 # 문제 발생시 32로 변경하라고 함. 
+# Subdivision=8 -> Split batch into 8 mini-batches so 64/8 = 8 images per mini-batch and these 8 images are sent for processing. 
+# This process will be performed 8 times until the batch is completed and a new iteration will start with 64 new images.
 
 width=416
 height=416
